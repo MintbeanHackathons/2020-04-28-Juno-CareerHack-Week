@@ -1,14 +1,8 @@
 # Today's Objective: Markdown Editor
 
-## Prize
-
-$25 CAD Amazon gift card + bragging rights.
-
-Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
-
 ## Objective
 
-Today's objective is to create your own Markdown Editor.
+Today's objective is to create your own Markdown Editor that actually saves to Express!
 
 Markdown, as you probably already know, is a formatting language for text-based documents. This document is written in Markdown. You can see its source to get a taste for what Markdown looks like.
 
@@ -21,13 +15,17 @@ Some examples of Markdown Editors include:
 
 ## Requirements
 
-Create a Markdown editor, like the above, that has the following components:
+### 1. Create a Markdown editor, like the above, that has the following components:
 
 * Input area
 * Compilation logic (you can use a library for this)
 * Preview panel (no need to do live preview, using a submit button is fine)
 
 Also, you should try to have a good stylesheet for the output HTML (you can use something like Bootstrap, Bulma, etc.)
+
+### 2. Save your form to Express
+
+You should save your form to Express such that anyone can access the data online after you've submitted it!
 
 ### Bonus points
 
@@ -55,7 +53,6 @@ Here are some suggested components for the various components above:
 
 ### Input Area - Suggested Libraries
 
-* CodeMirror
 * Ace Editor
 
 ### Compilation Logic
@@ -70,7 +67,9 @@ Well, for this one, you just output the compiled HTML to the DOM. :-)
 
 ## Frameworks:
 
-It is completely possible to build this using jQuery. You can use React, Vue, Angular if you wish.
+It is completely possible to build this using jQuery. 
+
+You can use React, Vue, Angular if you wish.
 
 ## Restrictions
 
@@ -78,9 +77,3 @@ It is completely possible to build this using jQuery. You can use React, Vue, An
 
 There are no other restrictions.
 
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
