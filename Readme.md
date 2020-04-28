@@ -2,6 +2,11 @@
 
 ## Today's Objective: Markdown Editor
 
+NOTES:
+
+1.30pm - Coding ends
+2.30pm - Code Review + Votes end
+
 ## Objective
 
 Today's objective is to create your own Markdown Editor that actually saves to Express!
